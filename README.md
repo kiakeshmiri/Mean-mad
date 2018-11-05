@@ -55,7 +55,13 @@ cd dotnetcore
 dotnet restore
 dotnet watch run
 ```
-Angular application (which is still ruiing on development server - port 4200) should work without any problem. Now you are using the same database, same data but using dotnetcore vs NodeJS. KABOOM!
+Angular application (which is still running on port 4200) should work without any problem. As a matter of fact it should not even notice the switch. Now you are using the same database, same data but using dotnetcore vs NodeJS. KABOOM!
+
+## Performance Comparison
+
+I'll share my official statistics in near future but initially it's obvious that nodejs is a clear winner but it's too early to declare the winner. Http performance is not everything that we should care about, besides dotnetcore performance is very good compared to standard dotnet but still behind golang servers.
+
+Dotnetcore advantage is support of microsoft and they are improving it and making it better and faster everyday. In addition to that for complex/big applications dotnetcore is a clear winner. There are tons of available middlewares for dotnetcore and enterprise coding / maintenance reduces overall costs. 
 
 Enjoy the demo.
 
