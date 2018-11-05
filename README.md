@@ -4,18 +4,18 @@ Mongodb + ExpressJS + AnularJS + NodeJS + Dotnetcore + Material Demo
 MEAN Stack plus MAD(DotNetCore) Stack Demo.
 ===
 
-## Pupose
+## Purpose
 
-Demonstrating How AngularJS 7 can consume expressjs REST and compare in with dotnetcore WebAPI as an alternative. This application is contains 2 API severs : 1- expressjs + mongoose (Mongodb library for NodeJS) 2- dotnetcore + mongodb C# driver. 
+Demonstrating How AngularJS 7 can consume expressjs REST and compare in with dotnetcore WebAPI as an alternative. This application is contains 2 API severs : 1- expressjs + mongoose (Mongodb library for NodeJS) 2- dotnetcore + mongodb C# driver.
 
 This application uses Observables Subjects for transfering asynchronous data between components.
 
 Directories and ports are set up the way so you can easily switch back and forth between servers. (i.e. run NodeJS and test, then run dotnetcore). Both servers are using port 5000 but you can configure the ports in proxy.json file to your desired port. you can also define 2 separate ports and rub both servers simultaneously. Just keep in mind mongodb server and angularjs development server do not to restart or change during your test. you can only turn on and off nodeJS or dotnetcore server.
 
-This example only works on development mode (i.e. 'http://localhost:4200'). Production mode will be added to this project in future. There are so much improvements can be done on material and styles but I just wanted to focus on functionality in first version. 
+This example only works on development mode (i.e. 'http://localhost:4200'). Production mode will be added to this project in future. There are so much improvements can be done on material and styles but I just wanted to focus on functionality in first version.
 
 ### Prerequisites
-All the installations intructructions works on all supported platforms, However I've personally tested the steps on Windows 10 and Ubuntu 18.x successfuly.
+All the installations instructructions works on all supported platforms, However I've personally tested the steps on Windows 10 and Ubuntu 18.x successfully.
 
 The following must be installed (preferably in order) before getting started.
 
@@ -24,7 +24,7 @@ Latest AngularJS (npm install -g @angular/cli).
 Latest Angular Material (ng add @angular/material).
 NodeJS (refer to https://nodejs.org/en/).
 Mongodb (refer to  https://www.mongodb.com/download-center/community).
-dotnetcore SDK (https://www.microsoft.com/net/download). 
+dotnetcore SDK (https://www.microsoft.com/net/download).
 your favorite IDE (mine is VS code : https://code.visualstudio.com).
 
 ```
@@ -45,9 +45,9 @@ This will lunch expressJS Api application and connects to default mongodb port (
 ```
 npm start
 ```
-This will lunch Angular development sever using proxy.json. Open browser and go to http://localhost:4200. You can create posts and test and see how httpClient and Subject.next and Obersvables works. 
+This will lunch Angular development server using proxy.json. Open browser and go to http://localhost:4200. You can create posts and test and see how httpClient and Subject.next and Obersvables works.
 
-Now lets focus on dotnetcore. The same exact logic and database structure is implemented in dotnetcore. To run the application and use dotnetcore insted Node and Exoress, simply Ctrl+c on first terminal (i.e. the same terminal that you ran node app.js). Open a new terminal and run the following:
+Now let's focus on dotnetcore. The same exact logic and database structure is implemented in dotnetcore. To run the application and use dotnetcore instead Node and Exoress, simply Ctrl+c on first terminal (i.e. the same terminal that you ran node app.js). Open a new terminal and run the following:
 
 ```
 cd mean-mad
@@ -61,14 +61,14 @@ Angular application (which is still running on port 4200) should work without an
 
 I'll share my official statistics in near future but initially it's obvious that nodejs is a clear winner but it's too early to declare the winner. Http performance is not everything that we should care about, besides dotnetcore performance is very good compared to standard dotnet but still behind golang servers.
 
-Dotnetcore advantage is support of microsoft and they are improving it and making it better and faster everyday. In addition to that for complex/big applications dotnetcore is a clear winner. There are tons of available middlewares for dotnetcore and enterprise coding / maintenance reduces overall costs. 
+Dotnetcore advantage is support of microsoft and they are improving it and making it better and faster everyday. In addition to that for complex/big applications dotnetcore is a clear winner. There are tons of available middlewares for dotnetcore and enterprise coding / maintenance reduces overall costs.
 
 Enjoy the demo.
 
 
 # Angular Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2. In addition to that this project is using Angular Material(https://material.angular.io/). 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2. In addition to that this project is using Angular Material(https://material.angular.io/).
 
 ## Development server
 
@@ -93,4 +93,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
 
