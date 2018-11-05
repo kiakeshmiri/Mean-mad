@@ -10,7 +10,7 @@ Demonstrating How AngularJS 7 can consume expressjs REST and compare in with dot
 
 This application uses Observables Subjects for transfering asynchronous data between components.
 
-Directories and ports are set up the way so you can easily switch back and forth between servers. (i.e. run NodeJS and test, then run dotnetcore). Both servers are using port 5000 but you can configure the ports in proxy.json file to your desired port. you can also define 2 seperate ports and rub both servers simultaneously. Just keep in mind mongodb server and angularjs development server do not to restart or change during your test. you can only turn on and off nodeJS or dotnetcore server.
+Directories and ports are set up the way so you can easily switch back and forth between servers. (i.e. run NodeJS and test, then run dotnetcore). Both servers are using port 5000 but you can configure the ports in proxy.json file to your desired port. you can also define 2 separate ports and rub both servers simultaneously. Just keep in mind mongodb server and angularjs development server do not to restart or change during your test. you can only turn on and off nodeJS or dotnetcore server.
 
 This example only works on development mode (i.e. 'http://localhost:4200'). Production mode will be added to this project in future. There are so much improvements can be done on material and styles but I just wanted to focus on functionality in first version. 
 

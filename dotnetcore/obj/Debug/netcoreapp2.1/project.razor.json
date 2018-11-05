@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "e:\\Projects\\mean-mad\\dotnetcore\\dotnetcore.csproj",
+  "ProjectFilePath": "e:\\CoreProjects\\mean-mad\\dotnetcore\\dotnetcore.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "MVC-2.1",
-    "LanguageVersion": "2.1",
-    "Extensions": [
-      {
-        "ExtensionName": "MVC-2.1"
-      }
-    ]
-  }
+  "Configuration": null
 }
